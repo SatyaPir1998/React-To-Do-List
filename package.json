@@ -1,0 +1,11 @@
+{
+  "name": "react_to_do",
+  "version": "1.0.0",
+  "description": "Make a To do list ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Satya",
+  "license": "ISC"
+}

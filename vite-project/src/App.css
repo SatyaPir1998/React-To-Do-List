@@ -1,0 +1,63 @@
+
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #324fd1;
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+.input-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.input-container>input{
+  width: 300px;
+  height: 30px;
+  font-size: 1.25rem;
+}
+.input-container>button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  font: 1.22rem;
+  background-color: rgb(21, 235, 56);
+  margin-top: 10px;
+}
+
+.container{
+margin-top: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+}
+.todo{
+  width: 500px;
+  font-size: 1.0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  color: black;
+  background-color: azure;
+  padding: 0px 5px;
+}
+.action >button{
+background-color: #c41717;
+color: white;
+height: 30px;
+width: 75px;
+border-radius: 10px;
+font-size: 1rem;
+margin-left: 10px;
+}
+.action >button:hover{
+  background-color: #ff0202;
+}
+
+
+
+
